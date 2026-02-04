@@ -1,26 +1,26 @@
 class Skygent < Formula
   desc "Effect-based CLI for Bluesky monitoring, querying, and analytics"
   homepage "https://github.com/mepuka/bsky-cli"
-  version "0.4.3"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mepuka/bsky-cli/releases/download/v0.4.3/skygent-darwin-arm64"
-      sha256 "ecdfaac8e653f2c7ffc1d9c803b447f32adc54e00c36ca867999a89be5dc44e9"
+      url "https://github.com/mepuka/bsky-cli/releases/download/v0.6.0/skygent-darwin-arm64"
+      sha256 "669908bc55883c133cba228a54a2aed91b117527776e9060f68e90c2f1617c4d"
     else
-      url "https://github.com/mepuka/bsky-cli/releases/download/v0.4.3/skygent-darwin-x64"
-      sha256 "83e3640719a7b145d21f7e29dacfcf190114533b7e75a14f7035212c0b4c3992"
+      url "https://github.com/mepuka/bsky-cli/releases/download/v0.6.0/skygent-darwin-x64"
+      sha256 "ba9115a5a42fef4ccc08694226cac66f76b110b6ef654f32136cc0d105456553"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/mepuka/bsky-cli/releases/download/v0.4.3/skygent-linux-arm64"
-      sha256 "cd30895f7894826bd0ed583209c031d27ca5945fce911c978a060e121c552c8b"
+      url "https://github.com/mepuka/bsky-cli/releases/download/v0.6.0/skygent-linux-arm64"
+      sha256 "36b37e811ec1e5d2b1bb25e9e6e7bdf0e30005838e2c19a08636069a726bcc79"
     else
-      url "https://github.com/mepuka/bsky-cli/releases/download/v0.4.3/skygent-linux-x64"
-      sha256 "48015b91950c83625cf3ae9da74b62c13bb2fb1c291c0cbe2f7bd5e632e8dd8c"
+      url "https://github.com/mepuka/bsky-cli/releases/download/v0.6.0/skygent-linux-x64"
+      sha256 "e6f70c7420b3c8b8112934497ed2699bf6462168e3a42bb1276f6ad140acb674"
     end
   end
 
